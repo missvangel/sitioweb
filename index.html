@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head> <title> Chatbot </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/main.css"> 
+</head>
+
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <a class=navbar-brand href="#">
+              <img src="img/logo1.png" alt="" width=""> 
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Chatbot</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ayuda en linea
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Acerca de</a>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+     
+
+          <!-- CAROUSEL-->
+  
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slide02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide00.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide04.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+
+
+    <!-- RIBBON-->
+    <div id="ribbon">
+        <P></P>
+        <!-- <h1 class ="text-center display-6">Diagnóstico de depresión con IA</h1> -->
+        <P></P>
+        <P></P>
+        <P></P>
+        <div id="tarjeta" class="container w-50 pl-5 pr-5 rounded-lg">
+          <!-- slide -->
+          <div class="row align-items-center">
+            <div class="col-sm col-sm p-3" id="description">
+              <img src="img/ai.jpg" class="w-75 mx-auto d-block" alt="..." width=10>
+            </div>
+            
+            <div class="col-sm p-3 text-light text-center">
+              <p></p>
+              <p style class ="text-dark h4">Hola, esperamos que estés teniendo un buen día. Nos gustaría tener la oportunidad de hablar contigo hoy.</p>
+              <p></p>
+              <h3 class="text-dark"> ¿Empezamos?</h3>
+          </div><!-- SLIDE-->
+        </div>
+    </div><!-- RIBBON-->
+
+
+    <!-- SEPARATOR RIBBON-->
+    <div id="separator-ribbon">
+      <div class="content bg-white"></div> 
+    </div>
+    <!-- CHATBOT SALA-->
+    <div id="chat">
+        <div class="container-md p-5">
+
+            <div class="row py-5">
+                <div class="col text-center">
+                  <a href="#" class="link-dark">
+                    <button class="btn btn-light btn-lg rounded-pill p-4 font-weight-bold">Comenzar conversación con IA</button>
+                  </a>    
+                </div> 
+              </div>
+          
+          <div class="row pt-5">
+              <h3 class="text-center pb-5 pt-5 h1">Chat conversacional Beta</h3>
+          </div>
+
+          <div class="row">
+              <div class="col-sm">
+                  <div class="card w-100 card-border mb-5">
+                      <img src="img/chat.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Conocer las tendencias en el estado anímico a través de su selección de respuestas en el sistema.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm">
+                  <div class="card w-100 card-border mb-5">
+                      <img src="img/slide1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Proporcionar a los clínicos un sistema de seguimiento y predicción que intente detectar cuanto antes en los pacientes con enfermedad mental descompensaciones y recaídas.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm">
+                  <div class="card w-100 card-border mb-5">
+                      <img src="img/machine.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Machine Learning basado en algoritmos de aprendizaje supervisado por expertos clínicos multidisciplinares.</p>
+                      </div>
+                    </div>
+              </div>
+            </div>
+  
+            <div class="row py-5">
+              <div class="col">
+                <h3 class="text-center" style="color: var(--bs-blue)">¿Necesitas más información? Entra aquí:</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-2"><a href="https://ayuda-psicologica-en-linea.com/salud-psicologica/atencion-psicologica-gratuita/">Ayuda online</a></div>
+              <div class="col-2"><a href="https://centrointegraldepsicologia.com/ayuda-psicologica-gratuita/">Centro integral</a></div>
+              <div class="col-1"><a href="https://psicologos.mx/ayuda-psicologica">Psicólogos</a></div>
+              <div class="col-1"><a href="https://www.esic.edu/rethink/tecnologia/que-es-un-chatbot-y-para-que-sirve">Chatbot</a></div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      
+
+    <div id="footer" class="p-5">
+      <div class="container w-50 pt-5">
+        <div class="row row-cols-md-2 justify-content-md-center">
+        </div>
+        <div class="row justify-content-md-center py-5">
+          <div class="col text-center font-weight-light">
+            <p>Esta página tiene el fin de desarrollar un prototipo de chatbot enfocado al diagnóstico de 
+                la depresión en jóvenes y adultos, utilizando redes neuronales para predecir la puntuación 
+                del usuario en la Hamilton Depresion Rating Scale (HDRS),
+             y con base en el resultado realizar un diagnóstico preliminar de depresión.</p>
+            <p>© 2021 - 2020 Prototipo.</p>
+          </div>
+          
+        </div>
+        <div class="row"></div>
+      </div>
+    </div>
+  
+    <!-- Comentarios -->
+    <!-- Inicio -->
+
+    <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script> 
+</body>
+</html>
